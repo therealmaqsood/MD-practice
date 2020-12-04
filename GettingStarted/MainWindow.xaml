@@ -25,7 +25,11 @@
         </Button>
         
             <materialDesign:Card Padding="32" Margin="16" Height="200">
-                <TextBlock Style="{DynamicResource MaterialDesignHeadline5TextBlock}">My First Material Design App</TextBlock>
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Style="{DynamicResource MaterialDesignHeadline5TextBlock}">My First Material Design App</TextBlock>
+                    <TextBlock Text="Umar Faruq Lilla" Style="{StaticResource MaterialDesignBody1TextBlock}"></TextBlock>
+            </StackPanel>
+                
             </materialDesign:Card>
        
     </Grid>
